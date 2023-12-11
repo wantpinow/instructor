@@ -5,6 +5,7 @@ from pydantic import BaseModel, Field, create_model
 from instructor.function_calls import OpenAISchema, Mode
 
 
+
 class MultiTaskBase:
     task_type = None  # type: ignore
 
